@@ -13,6 +13,13 @@ footer {
     text-align: center;
     color: white;
     background-color: #666666;
+    line-height: 40px;
+    bottom: 0%;
+    width: 100%;
+}
+
+.fa-brands {
+    font-size: x-large;
 }
 
 .sidebar {
@@ -98,12 +105,6 @@ footer {
 .productViewDetail h4 {
     margin-left: 7%;
     line-height: 45px;
-}
-
-footer {
-    line-height: 40px;
-    bottom: 0%;
-    width: 100%;
 }
 
 p {

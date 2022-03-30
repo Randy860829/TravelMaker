@@ -1,13 +1,20 @@
-
 footer {
-padding: 20px;
-text-align: center;
-color: white;
-background-color: #666666;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+    line-height: 40px;
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
 }
 
-.hidden{
-display: none !important;
+.fa-brands {
+    font-size: x-large;
+}
+
+.hidden {
+    display: none !important;
 }
 
 .sidebar {
@@ -32,9 +39,6 @@ display: none !important;
     background-size: cover;
     object-fit: cover;
 }
-
-
-
 
 .member h4 {
     margin-top: 15px;
@@ -88,8 +92,6 @@ display: none !important;
     height: 95%;
 }
 
-
-
 @media screen and (max-width:1200px) {
     .productView {
         width: 650px;
@@ -102,28 +104,22 @@ display: none !important;
         height: 520px;
         width: 100%;
     }
-
     .productImg {
         border-radius: 15px;
         width: 100%;
         height: 300px;
         background-color: aqua;
     }
-
     .product-detail {
         width: 100%;
         margin: auto;
     }
 }
 
-
-
 .accountRow {
     display: flex;
     justify-content: space-around;
 }
-
-
 
 .account {
     display: flex;
@@ -190,7 +186,6 @@ p {
     font-weight: 1000;
 }
 
-
 .btnSave {
     width: 100px;
     height: 40px;
@@ -216,13 +211,16 @@ p {
     text-align: center;
 }
 
-.accoutErro, .phoneErro, .pswdErro ,.emailErro{
-    color:red;
+.accoutErro,
+.phoneErro,
+.pswdErro,
+.emailErro {
+    color: red;
 }
 
 
-
 /* 個人圖片 */
+
 .cursor {
     cursor: pointer;
     text-align: center;
@@ -236,16 +234,15 @@ p {
     cursor: pointer;
 }
 
-
-@media screen and (max-width:1000px){
-    footer{
+@media screen and (max-width:1000px) {
+    footer {
         position: relative;
-        top:30px;
+        top: 30px;
     }
-    .board{
-        height:100%
+    .board {
+        height: 100%
     }
-    #userInfo{
+    #userInfo {
         display: flex;
         flex-direction: column;
     }
@@ -253,26 +250,31 @@ p {
         display: flex;
         flex-direction: column;
     }
-
     .account {
         display: flex;
-        flex-direction:row;
-        margin:30px 0 0 20px;
+        flex-direction: row;
+        margin: 30px 0 0 20px;
     }
-
-    .account > input{
+    .account>input {
         margin-left: 20px;
     }
-
-    .account > a > input{
+    .account>a>input {
         margin-left: 20px;
     }
-    label{
-        width:80px;
+    label {
+        width: 80px;
     }
-    .account3{
+    .account3 {
         margin: auto;
     }
 }
 
-
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+    line-height: 40px;
+    bottom: 0%;
+    width: 100%;
+}

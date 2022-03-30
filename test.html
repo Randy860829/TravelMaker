@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- add new item Dynamically in the show block -->
+    <div id="showBlock1">
+        Test content remove
+    </div>
+    <div id="showBlock2">
+        Test content empty
+    </div>
+    <!-- click the button to add new item -->
+    <input type="button" id="btn1" value="removeTxt" />
+    <input type="button" id="btn2" value="emptyTxt" />
+    <script>
+        //add text after the last child
+        $("#btn1").click(function() {
+            $("#showBlock1").remove();
+        });
+
+        //add text before the last child
+        $("#btn2").click(function() {
+            $("#showBlock2").empty();
+        });
+    </script>
+</body>
+
+</html>
