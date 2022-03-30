@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  body {
+    padding-top: 90px;
+  }
+  
+
+  footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+  }
+  
+  
+  .hidden{
+    display: none !important;
+  }
+  
+  body {
+    box-sizing: border-box;
+}
+
+.sidebar {
+    display: flex;
+    border-radius: 6px;
+    height: 380px;
+    margin-top: 30px;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 300px;
+    background: gray;
+}
+
+
+.member {
+    margin: 50px 0;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.member h4 {
+    margin-top: 15px;
+}
+
+.list-menu {
+    bottom: 0px;
+    padding: 5px 0;
+
+}
+
+
+.list-item {
+    height: 40px;
+    line-height: 40px
+}
+
+
+.list-item a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+
+
+}
+
+.list-menu :hover {
+
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+}
+
+
+
+@media screen and (max-width:860px) {
+    .nav-container {
+        display: none;
+    }
+
+}
+
+.collection {
+    height: 100px;
+
+}
+
+.collection p {
+
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 30px;
+    border-bottom: 1px solid #000;
+
+}
+
+.board {
+    background-color: #F0F0F0;
+    border-radius: 6px;
+    height: 1000px;
+}
+
+.productView {
+    display: flex;
+    height: 200px;
+    width: 800px;
+    background-color: #FCFCFC;
+    border-radius: 15px;
+    border: 1px solid #000;
+    justify-content: space-between;
+    margin: 0 auto;
+    transition: .3s;
+
+}
+
+.productView:hover {
+    box-shadow: 3px 3px 20px #888888;
+}
+
+.productImg {
+    background-image: url(/image/1.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+    width: 30%;
+
+}
+
+
+
+.product-detail {
+
+    border-radius: 0 15px 15px 0;
+    margin-top: 10px;
+    width: 65%;
+}
+
+.productView .product-detail {
+    padding: 0 15px 10px 0;
+    position: relative;
+    min-height: 170px;
+}
+
+.product-detail h3 {
+    padding: 0 10px 0 10px;
+    font-size: 1.4rem;
+}
+
+.product-detail .description {
+    padding: 0 10px 0 10px;
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    max-height: 43px;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width:1200px) {
+    .productView {
+        width: 650px;
+    }
+
+}
+
+@media screen and (max-width:980px) {
+
+    .productView {
+        flex-direction: column;
+        height: 520px;
+        width: 100%;
+    }
+
+    .productImg {
+        border-radius: 15px;
+        width: 100%;
+        height: 300px;
+        background-color: aqua;
+
+    }
+
+    .product-detail {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
