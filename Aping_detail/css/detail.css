@@ -5360,7 +5360,7 @@ fieldset:disabled .btn {
     padding: 1rem 1rem;
 }
 
-@ .card-subtitle {
+.card-subtitle {
     margin-top: -0.25rem;
     margin-bottom: 0;
 }
@@ -12769,7 +12769,7 @@ footer {
 .star input {
     display: block;
     float: left;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     width: 1em;
     height: 1em;
@@ -12779,6 +12779,7 @@ footer {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    margin-top: 40px;
 }
 
 .star input:first-child {
