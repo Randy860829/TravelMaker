@@ -25,10 +25,11 @@ footer {
 .sidebar {
     display: flex;
     border-radius: 6px;
-    height: 290px;
+    height: 380px;
     margin-top: 30px;
     flex-direction: column;
     text-align: center;
+    flex-basis: 300px;
     background: #F0F0F0;
 }
 

@@ -278,3 +278,16 @@ footer {
     bottom: 0%;
     width: 100%;
 }
+
+.cursor {
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom-file-input {
+    display: none;
+}
+
+.img-thumbnail {
+    cursor: pointer;
+}
